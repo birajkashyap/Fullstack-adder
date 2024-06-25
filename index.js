@@ -18,6 +18,6 @@ async function adder() {
         const sum = await response.text();
         resultElement.innerHTML = sum;
     } catch (error) {
-        resultElement.innerHTML = 'Error: ' + error.message;
+        resultElement.innerHTML = 'Error:' + error.message;
     }
 }
